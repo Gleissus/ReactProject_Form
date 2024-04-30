@@ -1,6 +1,6 @@
 # React + Vite
 
-J'ai utilisé React + Vite pour créer le projet
+J'ai utilisé React + Vite pour créer le projet: https://vitejs.dev/guide/
 
 Cette commande a été utilisée pour créer le projet :
 npm create vite@latest OzexProject
