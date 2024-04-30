@@ -1,0 +1,30 @@
+.splash-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; 
+    animation-name: fadeOut;
+    animation-duration: 3s; 
+    animation-timing-function: ease-out; 
+    animation-fill-mode: forwards; 
+  }
+  
+  .splash-screen h1 {
+    font-size: 56px;
+    color: #333; 
+  }
+
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
