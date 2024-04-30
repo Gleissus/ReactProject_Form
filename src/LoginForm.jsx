@@ -71,11 +71,12 @@ const LoginForm = () => {
       {/* Display error message if there's an error */}
       {error && <p className="error-message">{error}</p>}
       {/* Display success message if the form is submitted successfully */}
-      {successMessage && <p className="success-message">{successMessage}</p>}
+      {successMessage && <p className="success-message">{successMessage}</p>}      
     </form>
 
-
+    
   );
 };
+
 
 export default LoginForm;
