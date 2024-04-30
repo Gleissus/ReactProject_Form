@@ -4,9 +4,10 @@ function App(){
   return (
     <div>
       <h1>OZEX</h1>
-       <LoginForm/>
+       <LoginForm/>       
     </div>
     ) 
 }
 
 export default App
+
